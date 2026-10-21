@@ -35,11 +35,11 @@ new WebpackPlugin({
         config: rendererConfig,
         entryPoints: [
           {
-            html: './src/index.html',
-            js: './src/renderer.ts',
+            html: './index.html',
+            js: './renderer.ts',
             name: 'main_window',
             preload: {
-              js: './src/preload.ts',
+              js: './preload.ts',
             },
           },
         ],
